@@ -2,6 +2,37 @@ body {
     min-height: 100%;
     min-width: 100%;
 }
+/*NAVIGATION*/
+ .main-nav {
+     font-size: 110%;
+     letter-spacing: 4px;
+     margin-bottom: 0;
+     overflow: hidden;
+}
+ .fixed-top {
+     -webkit-transition: 0.4s;
+     -o-transition: 0.4s;
+     transition: 0.4s;
+}
+
+.fa-shopping-basket, .fa-user {
+    font-size: 30px;
+}
+
+
+/*SOCIAL LINKS*/
+
+.social-links {
+    text-align: center;
+}
+.social-links li {
+    display: inline;
+    font-size: 40px;
+} 
+.social-links li a i {
+    padding: 0 10px;
+}
+
 .logo-image {
     display: flex;
     float: left;
