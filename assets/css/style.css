@@ -1,5 +1,6 @@
 html {
 	min-height: 100vh;
+    min-width:100vh;
 }
 
 body {
@@ -63,6 +64,26 @@ body {
     width: 70%;
 }
 
+.hero-container .hero-btn {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 80%; 
+    background: rgba(0, 0, 0, 0.8);
+    font-family: Arial,sans-serif;
+    color: #fff;
+    width: fit-content;
+}
+
+.order-btn {
+    background-color: #ffffff;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+
 .hero-image {
     justify-content: center;
     display: flex;
@@ -85,6 +106,10 @@ img.links {
     margin-left: 30%;
     position: relative;
     display: inline-block;
+}
+
+.thumb {
+  padding: 5px;
 }
 
 .link-text {
