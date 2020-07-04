@@ -43,9 +43,10 @@ body {
     align-items: center;
     margin: auto;
     clear: both;
-    height: 16em;
+    height: 26em;
     padding: 10px;
 }
+
 
 .links {
     height: 10em;
@@ -53,6 +54,18 @@ body {
     padding: 10px;
     margin-left: 30%;
 }
+
+.link-text {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%; 
+    text-align: center;
+    width: 60%;
+}
+
 /*SOCIAL LINKS*/
 
 .social-links {
