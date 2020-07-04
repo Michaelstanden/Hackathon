@@ -1,3 +1,18 @@
 
+.logo-image {
+    display: flex;
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+
+.hero-image {
+    justify-content: center;
+    display: flex;
+    min-width: 80%;
+    align-items: center;
+    margin: auto;
+}
+
 
 
