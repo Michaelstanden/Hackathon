@@ -36,20 +36,27 @@ body {
     border: 3px solid #000000;
 }
 
+.hero-section{
+    clear:both;
+}
+
 .hero-container {
     position: relative;
     display: inline-block;
-    clear: both;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
-.hero-container.hero-text {
+.hero-container .hero-text {
     position: absolute;
     z-index: 999;
     margin: 0 auto;
     left: 0;
     right: 0;        
     text-align: center;
-    top: 40%; 
+    top: 30%; 
     background: rgba(0, 0, 0, 0.8);
     font-family: Arial,sans-serif;
     color: #fff;
