@@ -36,6 +36,26 @@ body {
     border: 3px solid #000000;
 }
 
+.hero-container {
+    position: relative;
+    display: inline-block;
+    clear: both;
+}
+
+.hero-container.hero-text {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 40%; 
+    background: rgba(0, 0, 0, 0.8);
+    font-family: Arial,sans-serif;
+    color: #fff;
+    width: 60%;
+}
+
 .hero-image {
     justify-content: center;
     display: flex;
@@ -43,9 +63,10 @@ body {
     align-items: center;
     margin: auto;
     clear: both;
-    height: 26em;
+    height: 16em;
     padding: 10px;
 }
+
 img.links {
     border: 3px solid #000000;
 }
