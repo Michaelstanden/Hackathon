@@ -1,6 +1,12 @@
+html {
+	min-height: 100vh;
+}
+
 body {
-    min-height: 100%;
-    min-width: 100%;
+	margin: 0;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: center;
 }
 /*NAVIGATION*/
  .main-nav {
@@ -20,19 +26,7 @@ body {
 }
 
 
-/*SOCIAL LINKS*/
-
-.social-links {
-    text-align: center;
-}
-.social-links li {
-    display: inline;
-    font-size: 40px;
-} 
-.social-links li a i {
-    padding: 0 10px;
-}
-
+/* Logo image, Hero image and Link images for landing page*/
 .logo-image {
     display: flex;
     float: left;
@@ -45,7 +39,7 @@ body {
 .hero-image {
     justify-content: center;
     display: flex;
-    min-width: 90%;
+    min-width: 100%;
     align-items: center;
     margin: auto;
     clear: both;
@@ -54,9 +48,22 @@ body {
 }
 
 .links {
-    height: 200px;
-    width: 200px;
-    padding: 20px;
+    height: 10em;
+    width: 10em;
+    padding: 10px;
+    margin-left: 30%;
+}
+/*SOCIAL LINKS*/
+
+.social-links {
+    text-align: center;
+}
+.social-links li {
+    display: inline;
+    font-size: 40px;
+} 
+.social-links li a i {
+    padding: 0 10px;
 }
 
 
