@@ -53,17 +53,21 @@ body {
     width: 10em;
     padding: 10px;
     margin-left: 30%;
+    position: relative;
+    display: inline-block;
 }
 
 .link-text {
     position: absolute;
     z-index: 999;
     margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: 40%; 
+    left: 40%;        
     text-align: center;
-    width: 60%;
+    top: 40%; 
+    background: rgba(0, 0, 0, 0.8);
+    font-family: Arial,sans-serif;
+    color: #fff;
+    width: fit-content;
 }
 
 /*SOCIAL LINKS*/
