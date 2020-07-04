@@ -79,9 +79,10 @@ body {
 }
 
 .order-btn {
-    background-color: #ffffff;
-    border-radius: 8px;
+    border-radius: 4px;
     font-family: sans-serif;
+    color: #ffffff;
+    background: linear-gradient(135deg, #353333, #cfb5b0);
 }
 
 .hero-image {
