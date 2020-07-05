@@ -68,6 +68,11 @@ body {
   padding-top: 10px;
 }
 
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 /* -------Login / Basket -----*/
 
 .login-basket-container {
@@ -112,6 +117,7 @@ body {
   justify-content: center;
 
   position: relative;
+  clear: both;
 }
 
 .opaque-overlay {
@@ -238,11 +244,18 @@ img.links {
   padding: 0 10px;
 }
 
-/* FOOTER */
+/* -----FOOTER------ */
 
-#footer {
+.footer {
     display: inline;
 }
+
+.footer i {
+    color: #220901;
+    font-size: 30px;
+}
+
+
 
 /*---- Menu Page stylings ----*/
 
