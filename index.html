@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Moon Cafe</title>
+
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
@@ -11,11 +12,12 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <!--code containing header elements such as navbar, logo shopping cart icons and search bar.-->
+    <!--Header - logo, nav -->
     <header>
       <a href="index.html">
         <h2 id="logo" class="uppercase dark-red">The Moon Café</h2>
       </a>
+
       <!--NAVIGATION-->
       <nav>
         <ul class="main-nav navbar fixed-top navbar-expand-lg">
@@ -30,7 +32,7 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="navbar-collapse collapse" id="navbarNavDropdown" style="">
+          <div class="navbar-collapse collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto">
               <ul class="navbar-nav">
                 <li class="nav-item mr-1">
@@ -57,13 +59,40 @@
                   <a class="nav-link" href="#">Drinks</a>
                 </li>
               </ul>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+</head>
+<body>
+<!--code containing header elements such as navbar, logo shopping cart icons and search bar.-->
+<header>
+        <!--NAVIGATION-->
+        <nav>
+            <ul class="main-nav navbar fixed-top navbar-expand-lg">
+                <button class="navbar-toggler ml-auto collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span></button>
+                <div class="navbar-collapse collapse" id="navbarNavDropdown" style="">
+                    <ul class="navbar-nav ml-auto">
+                        <ul class="navbar-nav">
+                        <li class="nav-item mr-1"><i class="fa fa-shopping-basket" aria-hidden="true"></i></li>
+                        <li class="nav-item mr-1"><i class="fa fa-user" aria-hidden="true"></i>Log In</li>
+                        <li class="nav-item mr-1"><input type="text" placeholder= "search..."></li>
+                        </ul>
+                        <ul class="navbar-nav">
+                        <li class="nav-item mr-1"><a class="nav-link" href="#">Welcome</a></li>
+                        <li class="nav-item mr-1"><a class="nav-link" href="#">Breakfast</a></li>
+                        <li class="nav-item mr-1"><a class="nav-link" href="#">Lunch</a></li>
+                        <li class="nav-item mr-1"><a class="nav-link" href="menu.html">Drinks</a></li>  
+                    </ul>
+                    </ul>
+                </div>
+f7b7f3ff275fbf49393c389eb51bb23abe249457
             </ul>
           </div>
         </ul>
       </nav>
-      <!-- <div class="logo-container">
-<img class="logo-image" src="assets/images/moon-cafe-logo.jpg" alt="Picture of a cup of coffee with steam out of the top and the Moon cafe logo above.">
-</div> -->
+
     </header>
 
     <!--Hero image-->
@@ -82,46 +111,51 @@
 		</div>
 	</div>
 
+
     <!--./Hero image-->
 
-    <div class="container links">
-      <div class="row img-responsive">
-        <div class="col-lg-2 col-md-3 col-xs-2 thumb">
-          <a class="thumbnail" href="#">
-            <div><h3 class="link-text">Brunch</h3></div>
-            <img class="links" src="assets/images/breakfast-link.jpg" alt="" />
-          </a>
-        </div>
-        <div class="col-lg-2 col-md-3 col-xs-2 thumb">
-          <a class="thumbnail" href="#">
-            <div><h3 class="link-text">Brunch</h3></div>
-            <img class="links" src="assets/images/lunch-link.jpg" alt="" />
-          </a>
-        </div>
-        <div class="col-lg-2 col-md-3 col-xs-2 thumb">
-          <a class="thumbnail" href="#">
-            <div><h3 class="link-text">Brunch</h3></div>
-            <img class="links" src="assets/images/drinks-link.jpg" alt="" />
-          </a>
-        </div>
-        <div class="col-lg-2 col-md-3 col-xs-2 thumb">
-          <a class="thumbnail" href="#">
-            <div><h3 class="link-text">Brunch</h3></div>
-            <img class="links" src="assets/images/brunch-link.jpg" alt="" />
-          </a>
-        </div>
-        <div class="col-lg-2 col-md-3 col-xs-2 thumb">
-          <a class="thumbnail" href="#">
-            <div><h3 class="link-text">Brunch</h3></div>
-            <img class="links" src="assets/images/bakery-link.jpg" alt="" />
-          </a>
-        </div>
-      </div>
-    </div>
 
+    <!--./Hero image-->
+
+    <!--Grid images - Menu -->
+
+<div class="container links">
+<div class="row img-responsive">
+<div class="col-lg-2 col-md-3 col-xs-2 thumb">
+    <a class="thumbnail" href="#">
+    <div><h3 class="link-text">Breakfast</h3></div>
+        <img class="links" src="assets/images/breakfast-link.jpg" alt="">
+    </a>
+</div>
+<div class="col-lg-2 col-md-3 col-xs-2 thumb">
+    <a class="thumbnail" href="#">
+    <div><h3 class="link-text">Lunch</h3></div>
+        <img class="links"  src="assets/images/lunch-link.jpg" alt="">
+    </a>
+</div>
+<div class="col-lg-2 col-md-3 col-xs-2 thumb">
+    <a class="thumbnail" href="#">
+    <div><h3 class="link-text">Drinks</h3></div>
+        <img class="links" src="assets/images/drinks-link.jpg" alt="">
+    </a>
+</div>
+<div class="col-lg-2 col-md-3 col-xs-2 thumb">
+    <a class="thumbnail" href="#">
+    <div><h3 class="link-text">Brunch</h3></div>
+        <img class="links"  src="assets/images/brunch-link.jpg" alt="">
+    </a>
+</div>
+<div class="col-lg-2 col-md-3 col-xs-2 thumb">
+    <a class="thumbnail" href="#">
+    <div><h3 class="link-text">Bakery</h3></div>
+        <img class="links" src="assets/images/bakery-link.jpg" alt="">
+    </a>
+</div>
+</div>
+<!--./Grid images - Menu -->
     <!--FOOTER-->
     <footer>
-      <div class="container-fluid bg-light">
+      <div class="container-fluid bg-light" id="footer">
         <div class="row justify-content-start">
           <div class="col-xl-1 col-sm-12 font-weight-bold">About Us</div>
           <div class="col-xl-1 col-sm-12 font-weight-bold">Email</div>
