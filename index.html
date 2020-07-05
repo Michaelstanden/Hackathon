@@ -1,57 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Moon Cafe</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    
-</head>
-<body>
-<!--code containing header elements such as navbar, logo shopping cart icons and search bar.-->
-<header>
-        <!--NAVIGATION-->
-        <nav>
-            <ul class="main-nav navbar fixed-top navbar-expand-lg">
-                <button class="navbar-toggler ml-auto collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span></button>
-                <div class="navbar-collapse collapse" id="navbarNavDropdown" style="">
-                    <ul class="navbar-nav ml-auto">
-                        <ul class="navbar-nav">
-                        <li class="nav-item mr-1"><i class="fa fa-shopping-basket" aria-hidden="true"></i></li>
-                        <li class="nav-item mr-1"><i class="fa fa-user" aria-hidden="true"></i>Log In</li>
-                        <li class="nav-item mr-1"><input type="text" placeholder= "search..."></li>
-                        </ul>
-                        <ul class="navbar-nav">
-                        <li class="nav-item mr-1"><a class="nav-link" href="#">Welcome</a></li>
-                        <li class="nav-item mr-1"><a class="nav-link" href="#">Breakfast</a></li>
-                        <li class="nav-item mr-1"><a class="nav-link" href="#">Lunch</a></li>
-                        <li class="nav-item mr-1"><a class="nav-link" href="#">Drinks</a></li>  
-                    </ul>
-                    </ul>
-                </div>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+		integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!--Header - logo, nav -->
+    <header>
+      <a href="index.html">
+        <h2 id="logo" class="uppercase dark-red">The Moon Café</h2>
+      </a>
+
+      <!--NAVIGATION-->
+      <nav>
+        <ul class="main-nav navbar fixed-top navbar-expand-lg">
+          <button
+            class="navbar-toggler ml-auto collapsed"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <ul class="navbar-nav">
+                <li class="nav-item mr-1">
+                  <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                </li>
+                <li class="nav-item mr-1">
+                  <i class="fa fa-user" aria-hidden="true"></i>Log In
+                </li>
+                <li class="nav-item mr-1">
+                  <input type="text" placeholder="search..." />
+                </li>
+              </ul>
+              <ul class="navbar-nav">
+                <li class="nav-item mr-1">
+                  <a class="nav-link" href="#">Welcome</a>
+                </li>
+                <li class="nav-item mr-1">
+                  <a class="nav-link" href="#">Breakfast</a>
+                </li>
+                <li class="nav-item mr-1">
+                  <a class="nav-link" href="#">Lunch</a>
+                </li>
+                <li class="nav-item mr-1">
+                  <a class="nav-link" href="#">Drinks</a>
+                </li>
+              </ul>
             </ul>
-        </nav>
-<div class="logo-container">
-<img class="logo-image" src="assets/images/moon-cafe-logo.jpg" alt="Picture of a cup of coffee with steam out of the top and the Moon cafe logo above.">
-</div>
-</header>
+          </div>
+        </ul>
+      </nav>
 
+    </header>
 
-<!--container for hero image, and images that link to parts of the menu-->
-<section class="hero-section">
-<div class="hero-container">
-<img class="hero-image" src="assets/images/hero-image2.jpg"  alt="">
-<div class= "hero-text"> 
-<h3>Your local coffee shop is delivering within 30 minutes!</h3>
-</div>
-<div class="hero-btn">
-<button class="order-btn">Order Now</button>
-</div>
-</div>
-</section>
+    <!--Hero image-->
+    
+	<div class="container-fluid hero-container">
+		<div class="opaque-overlay">&nbsp;</div>
+		<div class="row">
+			<div class="col-12">
+				<section class="jumbotron">
+					<h1 class="jumbotron-header text-center">New delivery service!</h1>
+					<hr class="block-divider block-divider--orange">
+					<p class="lead">Your order will be delivered within 30 mins</p>
+					<button type="button" class="btn btn-lg btn--cta btn--colour">Order Now!</button>
+                    </section>	
+			</div>
+		</div>
+	</div>
 
+    <!--./Hero image-->
+
+    <!--Grid images - Menu -->
 
 <div class="container links">
 <div class="row img-responsive">
@@ -86,49 +118,62 @@
     </a>
 </div>
 </div>
-</div>
-
-            <!--FOOTER-->
-<footer>
-	<div class="container-fluid bg-light">
-		<div class="row justify-content-start">
-			<div class="col-xl-1 col-sm-12 font-weight-bold">About Us</div>
-			<div class="col-xl-1 col-sm-12 font-weight-bold">Email</div>
-			<div class="col-xl-1 col-sm-12 font-weight-bold">Address</div>
-			<div class="col-xl-1 col-sm-12 font-weight-bold">Contact Us</div>
-		</div>
-		<ul class="social-links">
-            <div class="col-12">
-                <h4 class="social">Keep in touch</h4>
-            </div>
-			<li>
-				<a href="#" target="_blank"> <i class="fa fa-facebook-official"></i></a>
-			</li>
-			<li>
-				<a href="#" target="_blank"> <i class="fa fa-twitter"></i></a>
-			</li>
-			<li>
-				<a href="#" target="_blank"> <i class="fa fa-instagram"></i></a>
-			</li>
-			<li>
-				<a href="#" target="_blank"><i class="fa fa-tripadvisor"></i></a>
-			</li>
-		</ul>
-	</div>
-</footer>
-<!--/FOOTER-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<!--./Grid images - Menu -->
+    <!--FOOTER-->
+    <footer>
+      <div class="container-fluid bg-light" id="footer">
+        <div class="row justify-content-start">
+          <div class="col-xl-1 col-sm-12 font-weight-bold">About Us</div>
+          <div class="col-xl-1 col-sm-12 font-weight-bold">Email</div>
+          <div class="col-xl-1 col-sm-12 font-weight-bold">Address</div>
+          <div class="col-xl-1 col-sm-12 font-weight-bold">Contact Us</div>
+        </div>
+        <ul class="social-links">
+          <div class="col-12">
+            <h4 class="social">Keep in touch</h4>
+          </div>
+          <li>
+            <a href="#" target="_blank">
+              <i class="fa fa-facebook-official"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" target="_blank"> <i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#" target="_blank"> <i class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#" target="_blank"><i class="fa fa-tripadvisor"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!--/FOOTER-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
     <script>
-        $(window).scroll(function() {
-            var scroll = $(window).scrollTop();
-            if (scroll < 1) {
-                $('.fixed-top').css('background', 'transparent');
-            } else {
-                $('.fixed-top').css('background', 'rgba(240, 240, 240, 1)');
-            }
-        });
+      $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll < 1) {
+          $(".fixed-top").css("background", "transparent");
+        } else {
+          $(".fixed-top").css("background", "rgba(240, 240, 240, 1)");
+        }
+      });
     </script>
-</body>
+  </body>
 </html>
