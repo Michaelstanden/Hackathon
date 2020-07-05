@@ -1,1 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Moon Cafe Menu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!----------------------Hero Image-->
+    <div class="container cafe-menu">
+        <div class="row">
+            <div class="col-3">
+                <a href="index.html">Back to Main</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center">Menu</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <img class="rounded mx-auto d-block" src="assets/images/CafeHero.jpg" alt="Coffee Menu Image">
+            </div>
+        </div>
+    </div>
+
+
+    <!----------------------Menu options-->
+
+    <!-- Formatting the whole thing inside a form element, to make it easier to integrate to EmailJS -->
+
+    <form>
+
+        <!------------------Coffee-->
+
+        <div class="container cafe-menu">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Coffee</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container menu-drink">
+            <div class="row">
+                <div class="col-md-2">
+                    Espresso (sml) £1.25
+                </div>
+                <div class="col-md-2">
+                    <span>
+
+                        <input type="number" class="esp-sml-val" value="0" style="width: 40px;">
+
+                        <button type="button" class="btn btn-primary btn-sm esp-sml-val" name="button">+</button>
+                        <button type="button" class="btn btn-secondary btn-sm esp-sml-val" name="button">-</button>
+                    </span>
+                </div>
+                <div class="col-md-2">
+                    Espresso (med) £1.45
+                </div>
+                <div class="col-md-2">
+                    <span>
+                        <input type="number" id="esp-md-val" value="0" style="width: 40px;">
+
+                        <button type="button" class="btn btn-primary btn-sm" name="button">+</button>
+                        <button type="button" class="btn btn-secondary btn-sm" name="button">-</button>
+                    </span>
+                </div>
+                <div class="col-md-2">
+                    Espresso (lrg) £1.65
+                </div>
+                <div class="col-md-2">
+                    <span>
+                        <input type="number" id="esp-lg-val" value="0" style="width: 40px;">
+
+                        <button type="button" class="btn btn-primary btn-sm" name="button">+</button>
+                        <button type="button" class="btn btn-secondary btn-sm" name="button">-</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container menu-drink">
+            <div class="row">
+                <div class="col-md-2">
+                    Americano (sml) £1.65
+                </div>
+                <div class="col-md-2">
+                    <span>
+                        <input type="number" id="ame-sm-val" value="0" style="width: 40px;">
+
+                        <button type="button" class="btn btn-primary btn-sm" name="button">+</button>
+                        <button type="button" class="btn btn-secondary btn-sm" name="button">-</button>
+                    </span>
+                </div>
+                <div class="col-md-2">
+                    Americano (med) £1.85
+                </div>
+                <div class="col-md-2">
+                    <span>
+                        <input type="number" id="ame-md-val" value="0" style="width: 40px;">
+
+                        <button type="button" class="btn btn-primary btn-sm" name="button">+</button>
+                        <button type="button" class="btn btn-secondary btn-sm" name="button">-</button>
+                    </span>
+                </div>
+                <div class="col-md-2">
+                    Americano (lrg) £2.05
+                </div>
+                <div class="col-md-2">
+                    <span>
+                        <input type="number" id="ame-lg-val" value="0" style="width: 40px;">
+
+                        <button type="button" class="btn btn-primary btn-sm" name="button">+</button>
+                        <button type="button" class="btn btn-secondary btn-sm" name="button">-</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container menu-drink">
+            <div class="row">
+                <div class="col-md-2">
+                    Latte (sml) £1.85
+                </div>
+                <div class="col-md-2">
+                    <span>
+                        <input type="number" id="lat-sm-val" value="0" style="width: 40px;">
+
+                        <button type="button" class="btn btn-primary btn-sm" name="button">+</button>
+                        <button type="button" class="btn btn-secondary btn-sm" name="button">-</button>
+                    </span>
+                </div>
+                <div class="col-md-2">
+                    Latte (med) £2.05
+                </div>
+                <div class="col-md-2">
+                    <span>
+                        <input type="number" id="lat-md-val" value="0" style="width: 40px;">
+
+                        <button type="button" class="btn btn-primary btn-sm" name="button">+</button>
+                        <button type="button" class="btn btn-secondary btn-sm" name="button">-</button>
+                    </span>
+                </div>
+                <div class="col-md-2">
+                    Latte (lrg) £2.25
+                </div>
+                <div class="col-md-2">
+                    <span>
+                        <input type="number" id="lat-lg-val" value="0" style="width: 40px;">
+
+                        <button type="button" class="btn btn-primary btn-sm" name="button">+</button>
+                        <button type="button" class="btn btn-secondary btn-sm" name="button">-</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!------------------Tea & Other-->
+
+        <div class="container cafe-menu">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Tea</h2>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container menu-drink">
+            <div class="row">
+                <div class="col-md-2">
+                    Engl. Brkfst (pot) £1.25
+                </div>
+                <div class="col-md-2">
+                    <span>
+                        <input type="number" id="tea-brk-val" value="0" style="width: 40px;">
+
+                        <button type="button" class="btn btn-primary btn-sm" name="button">+</button>
+                        <button type="button" class="btn btn-secondary btn-sm" name="button">-</button>
+                    </span>
+                </div>
+                <div class="col-md-2">
+                    Speciality (pot) £1.45
+                </div>
+                <div class="col-md-2">
+                    <span>
+                        <input type="number" id="tea-spc-val" value="0" style="width: 40px;">
+
+                        <button type="button" class="btn btn-primary btn-sm" name="button">+</button>
+                        <button type="button" class="btn btn-secondary btn-sm" name="button">-</button>
+                    </span>
+                </div>
+                <div class="col-md-2">
+                    Filter coffee (pot) £1.65
+                </div>
+                <div class="col-md-2">
+                    <span>
+                        <input type="number" id="tea-cf-val" value="0" style="width: 40px;">
+
+                        <button type="button" class="btn btn-primary btn-sm" name="button">+</button>
+                        <button type="button" class="btn btn-secondary btn-sm" name="button">-</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container menu-drink">
+            <div class="row">
+                <div class="col-md-2">
+                    Hot chocolate (sml) £1.65
+                </div>
+                <div class="col-md-2">
+                    <span>
+                        <input type="number" id="coc-sm-val" value="0" style="width: 40px;">
+
+                        <button type="button" class="btn btn-primary btn-sm" name="button">+</button>
+                        <button type="button" class="btn btn-secondary btn-sm" name="button">-</button>
+                    </span>
+                </div>
+                <div class="col-md-2">
+                    Hot chocolate (med) £1.85
+                </div>
+                <div class="col-md-2">
+                    <span>
+                        <input type="number" id="coc-md-val" value="0" style="width: 40px;">
+
+                        <button type="button" class="btn btn-primary btn-sm" name="button">+</button>
+                        <button type="button" class="btn btn-secondary btn-sm" name="button">-</button>
+                    </span>
+                </div>
+                <div class="col-md-2">
+                    Hot chocolate (lrg) £2.05
+                </div>
+                <div class="col-md-2">
+                    <span>
+                        <input type="number" id="coc-lg-val" value="0" style="width: 40px;">
+
+                        <button type="button" class="btn btn-primary btn-sm" name="button">+</button>
+                        <button type="button" class="btn btn-secondary btn-sm" name="button">-</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!------------------Pastries-->
+
+        <div class="container cafe-menu">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Pastries</h2>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container menu-drink">
+            <div class="row">
+                <div class="col-md-2">
+                    Doughnut £1.25
+                </div>
+                <div class="col-md-2">
+                    <span>
+                        <input type="number" id="dgn-val" value="0" style="width: 40px;">
+
+                        <button type="button" class="btn btn-primary btn-sm" name="button">+</button>
+                        <button type="button" class="btn btn-secondary btn-sm" name="button">-</button>
+                    </span>
+                </div>
+                <div class="col-md-2">
+                    Cinnamon Danish £1.45
+                </div>
+                <div class="col-md-2">
+                    <span>
+                        <input type="number" id="cdn-val" value="0" style="width: 40px;">
+
+                        <button type="button" class="btn btn-primary btn-sm" name="button">+</button>
+                        <button type="button" class="btn btn-secondary btn-sm" name="button">-</button>
+                    </span>
+                </div>
+                <div class="col-md-2">
+                    Croissant £1.55
+                </div>
+                <div class="col-md-2">
+                    <span>
+                        <input type="number" id="crn-val" value="0" style="width: 40px;">
+
+                        <button type="button" class="btn btn-primary btn-sm" name="button">+</button>
+                        <button type="button" class="btn btn-secondary btn-sm" name="button">-</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <button type="button" id="buy-btn" class="btn btn-danger btn-lg float-right" name="buy">Buy</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- Content will be generated by sendOrderForm.js and displayed when #buy-btn is clicked. -->
+    <div id="confirm-send-modal" style="display: none;">
+    </div>
+    <!-- Loading jQuery JS library, popper and bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- Script for tallying order and showing it-->
+    <script src="assets/js/sendOrderForm.js"></script>
+
+
+
+</body>
+
+</html>

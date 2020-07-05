@@ -1,0 +1,15 @@
+{ 
+    "Drinks": {
+    "Espresso": [1.25, 1.45, 1.65],
+    "Americano": [1.65, 1.85, 2.05],
+    "Latte": [1.85, 2.05, 2.25],
+    "Tea": [1.25, 1.45, 1.65],
+    "HotChoc": [2.05, 1.85, 1.65]
+    },
+    
+    "Pastries": {
+    "Doughnut": 1.25,
+    "Cinnamon Danish": 1.45,
+    "Croissant": 1.55  
+    }
+}
