@@ -81,7 +81,7 @@ $(document).ready(function () {
                          
                 $("#confirm-send-modal").append("<p>You've ordered "+elementVAL+" of item "+elementID+".</p><br>");
                 
-                // Outputs correctly for user-selections, next up is a way to go through the array using indexOf() in menuItems.json and output human-readable string + prices, then tally the total before sending it via EmailJS.
+                // Outputs correctly for user-selections, next up is a way to go through the array using indexOf() in menuItems.json and output human-readable strings for each ID + prices, then tally the total before sending it via EmailJS.
             }
 
         });
