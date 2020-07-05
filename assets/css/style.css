@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Montserrat+Subrayada:100,200,300,400,500,600,700");
 
+
 html {
   min-height: 100vh;
 }
@@ -48,7 +49,6 @@ body {
 /*NAVIGATION*/
 .main-nav {
   font-size: 110%;
-  letter-spacing: 4px;
   margin-bottom: 0;
   overflow: hidden;
 }
@@ -68,6 +68,7 @@ body {
   font-size: 250%;
   margin-left: 30px;
   font-family: "Montserrat Subrayada";
+  padding-top: 10px;
 }
 
 /* Hero image*/
@@ -157,6 +158,10 @@ img.links {
   display: inline-block;
 }
 
+.thumb {
+  padding: 5px;
+}
+
 .link-text {
   position: absolute;
   z-index: 999;
@@ -190,6 +195,7 @@ img.links {
     background-color: #fff;
 }
 
+
 /*SOCIAL LINKS*/
 
 .social-links {
@@ -202,3 +208,41 @@ img.links {
 .social-links li a i {
   padding: 0 10px;
 }
+
+/* FOOTER */
+
+<<<<<<< HEAD
+#footer {
+    display: inline;
+}
+=======
+/*---- Menu Page stylings ----*/
+
+.cafe-menu {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-drink {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+h2 {
+    display: grid;
+    grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+    align-items: center;
+    text-align: center;
+    grid-gap: 20px;
+    width: 100%;
+}
+
+h2:before,
+h2:after {
+    content: '';
+    border-top: 2px solid;
+}
+
+>>>>>>> f7b7f3ff275fbf49393c389eb51bb23abe249457
