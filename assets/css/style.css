@@ -8,6 +8,40 @@ body {
 	flex-direction: column;
 	justify-content: center;
 }
+
+/* Colours */
+
+.brown {
+    color: #220901;
+}
+
+.light-brown {
+    color: #621708;
+}
+
+.dark-red {
+    color: #941B0C;
+}
+
+.rust {
+    color: #BC3908;
+}
+
+.yellow {
+    color: #F6AA1C;
+}
+
+/* General Styling - Spacing, capitalisation, etc */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#logo, .navbar {
+  line-height: 75px;
+}
+
+
 /*NAVIGATION*/
  .main-nav {
      font-size: 110%;
@@ -25,6 +59,11 @@ body {
     font-size: 30px;
 }
 
+#logo {
+  float: left;
+  font-size: 200%;
+  margin-left: 30px;
+}
 
 /* Logo image, Hero image and Link images for landing page*/
 .logo-image {
