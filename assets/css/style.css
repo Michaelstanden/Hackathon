@@ -46,33 +46,24 @@ body {
   line-height: 75px;
 }
 
-/*NAVIGATION*/
+/*------NAVIGATION----*/
 
-.main-nav {
-  font-size: 110%;
-  margin-bottom: 0;
-  overflow: hidden;
-}
-
-.fixed-top {
-  -webkit-transition: 0.4s;
-  -o-transition: 0.4s;
-  transition: 0.4s;
-}
-
-.fa-shopping-basket,
-.fa-user {
-  font-size: 30px;
+.navbar .navbar-toggler {
+    border: 0;
 }
 
 .nav-links-style li a {
     color: #220901;
 }
 
+.nav-link {
+    padding: 0;
+}
+
 #logo {
   float: left;
-  font-size: 250%;
-  margin-left: 30px;
+  font-size: 200%;
+  margin-left: 20px;
   font-family: "Montserrat Subrayada";
   padding-top: 10px;
 }
