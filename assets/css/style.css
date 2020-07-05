@@ -66,25 +66,26 @@ body {
 }
 
 /* Logo image, Hero image and Link images for landing page*/
-.logo-image {
-    display: flex;
-    float: left;
-    height: 150px;
-    width: 150px;
-    padding: 5px;
-    border: 3px solid #000000;
+
+#hero-image {
+  height: 600px;
+  width: 100%;
+  background: url("../images/hero.png") repeat-x center center;
+
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+
 }
 
-.hero-image {
-    justify-content: center;
-    display: flex;
-    min-width: 100%;
-    align-items: center;
-    margin: auto;
-    clear: both;
-    height: 26em;
-    padding: 10px;
+#hero-outer {
+  height: 600px;
+  width: 100%;
+  overflow: hidden; /* clear: both; would also work */
+  position: relative;
 }
+
+
 img.links {
     border: 3px solid #000000;
 }
