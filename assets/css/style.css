@@ -47,11 +47,13 @@ body {
 }
 
 /*NAVIGATION*/
+
 .main-nav {
   font-size: 110%;
   margin-bottom: 0;
   overflow: hidden;
 }
+
 .fixed-top {
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
@@ -61,6 +63,10 @@ body {
 .fa-shopping-basket,
 .fa-user {
   font-size: 30px;
+}
+
+.nav-links-style li a {
+    color: #220901;
 }
 
 #logo {
@@ -142,6 +148,12 @@ body {
     color: #fff;
 }
 
+.btn--search {
+    font-weight: bold;
+    border-radius: 30px;
+    width: 100px;
+    align-items: center;
+}
 
 /* GRID IMAGES */
 
