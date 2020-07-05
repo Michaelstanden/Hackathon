@@ -1,5 +1,13 @@
 $(document).ready(function () {
 
+    // On ready, get menuItems.json loaded
+
+    $.getJSON("assets/js/menuItems.json", function (data, status){
+
+        console.log(status);
+        console.log(data);
+    });
+
     // General GUI for adding/removing items to the order on menu.html
 
     $("button").click(function () {
@@ -18,8 +26,6 @@ $(document).ready(function () {
             counterVal++;
 
             $(selectorBtn).val(counterVal);
-
-
 
         }
         else if ($button.text() == "-") {
@@ -48,41 +54,25 @@ $(document).ready(function () {
 
     $("#buy-btn").click(function () {
 
-        // orderTotal is an array with the specific items and cost of the order. On pressing the 'Buy' button, it tallies all the input-values and presents the cost. Actual prices are stored in a separate object, menuItems.JSON, to avoid clutter.
-
-        let orderTotal = {
-            "items": [
-                {
-
-                }
-            ],
-            "delivery": [{
-
-            }],
-            "totalCost": [{
-
-            }
-            ]
-        };
-
-        // To-do here: Take input from all inputs with a type of "number", discard all at 0, push all at 1 or higher into the orderTotal array.
+        // Takes input from all inputs with a type of "number", discard all at value 0. 
 
         $("input[type='number']").each(function () {
-          
+
             let elementID = $(this).attr("id");
             let elementVAL = $(this).val();
 
-            if(elementVAL == 0){
+            if (elementVAL == 0) {
 
                 // No action required if value is 0.
                 return;
             }
-            if(elementVAL >= 1){
-                         
-                $("#confirm-send-modal").append("<p>You've ordered "+elementVAL+" of item "+elementID+".</p><br>");
-                
+            if (elementVAL >= 1) {
+
                 // Outputs correctly for user-selections, next up is a way to go through the array using indexOf() in menuItems.json and output human-readable strings for each ID + prices, then tally the total before sending it via EmailJS.
-            }
+                $("#confirm-send-modal").append("<p>You've ordered " + elementVAL + " of item " + elementID + "</p><br>");
+
+
+            };
 
         });
     });
