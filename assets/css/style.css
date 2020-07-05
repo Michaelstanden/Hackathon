@@ -140,5 +140,32 @@ img.links {
 }
 
 
+/*---- Menu Page stylings ----*/
 
+.cafe-menu {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-drink {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+h2 {
+    display: grid;
+    grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+    align-items: center;
+    text-align: center;
+    grid-gap: 20px;
+    width: 100%;
+}
+
+h2:before,
+h2:after {
+    content: '';
+    border-top: 2px solid;
+}
 
