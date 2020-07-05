@@ -1,6 +1,6 @@
 { 
     "Drinks": {
-    "Espresso": [1.25, 1.45, 1.65],
+    "Espresso": [["esp-sml-val","Small Espresso",  1.25],["ame-sm-val","Medium Espresso",  1.45], ["lat-sm-val","Large Espresso", 1.65]],
     "Americano": [1.65, 1.85, 2.05],
     "Latte": [1.85, 2.05, 2.25],
     "Tea": [1.25, 1.45, 1.65],
