@@ -187,10 +187,19 @@ img.links {
 .links {
   height: 10em;
   width: 10em;
-  padding: 10px;
-  margin-left: 30%;
+  padding: 10px;  
   position: relative;
   display: inline-block;
+}
+
+.img-final {
+    padding-top: 10px;  /* GRID IMAGES FINAL */
+    padding-bottom: 10px;
+}
+
+.col-final {
+    padding-top: 10px;  /* GRID IMAGES FINAL */
+    padding-bottom: 10px;
 }
 
 .thumb {
@@ -200,8 +209,7 @@ img.links {
 .link-text {
   position: absolute;
   z-index: 999;
-  margin: 0 auto;
-  left: 40%;
+  margin: 0 auto;  
   text-align: center;
   top: 40%;
   background: rgba(0, 0, 0, 0.8);
