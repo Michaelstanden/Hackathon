@@ -1,0 +1,14 @@
+{           
+        
+    "menu": {
+        "espresso": [["esp-sml-val", "Espresso (sml)", 1.25], ["esp-md-val", "Espresso (med)", 1.45], ["esp-g-val", "Espresso (lrg)", 1.65]],
+        "americano": [["ame-sm-val", "Americano (sml)", 1.65], ["ame-md-val", "Americano (med)", 1.85], ["ame-lg-val", "Americano (lrg)", 2.05]],
+        "latte": [["lat-sm-val", "Latte (sml)", 1.85], [" lat-md-val", "Latte (med)", 2.05], ["lat-lg-val", "Latte (lrg)", 2.25]],
+        "tea": [["tea-brk-val", "Engl. Brkfst (pot)", 1.25], ["tea-spc-val", "Speciality (pot)", 1.45], ["tea-cf-val", "Filter coffee (pot)", 1.65]],
+        "hotchoc": [["coc-sm-val", "Hot chocolate (sml)", 2.05], ["coc-md-val", "Hot chocolate (med)", 1.85], ["coc-lg-val", "Hot chocolate (lrg)", 1.65]],
+        "donut": ["dgn-val", "Doughnut", 1.25],
+        "cinnamonDanish": ["cdn-val", "Cinnamon Danish", 1.45],
+        "croissant": [" crn-val", "Croissant", 1.55]
+    }
+    
+}
