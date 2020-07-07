@@ -269,13 +269,21 @@ img.links {
 
 .cafe-menu {
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .menu-drink {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.buy-button {
+    padding-bottom: 20px;
+}
+
+.menu-img {
+    padding-bottom: 5px;
 }
 
 
@@ -292,4 +300,19 @@ h2:before,
 h2:after {
     content: '';
     border-top: 2px solid;
+}
+
+
+/* Remove spinners on the quantity buttons in the menu */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
