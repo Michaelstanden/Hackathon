@@ -181,13 +181,12 @@ body {
 /* GRID IMAGES */
 
 img.links {
-  border: 3px solid #000000;
+  border: 1px solid #220901;
 }
 
 .links {
   height: 10em;
   width: 10em;
-  padding: 10px;  
   position: relative;
   display: inline-block;
 }
@@ -230,20 +229,12 @@ img.links {
     background-color: #bc3908;Ï
 }
 
-.block-divider--short {
-    width: 35px;
-}
-
-.block-divider--white {
-    background-color: #fff;
-}
-
-
 /*SOCIAL LINKS*/
 
 .social-links {
-  text-align: center;
+  text-align:center;
 }
+
 .social-links li {
   display: inline;
   font-size: 40px;
@@ -256,6 +247,7 @@ img.links {
 
 .footer {
     display: inline;
+    text-align: center;
 }
 
 .footer i {
