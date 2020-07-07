@@ -214,14 +214,6 @@ img.links {
   padding: 5px;
 }
 
-.flex-column { 
-       max-width : 260px;
-   }
-
-.flex-column img {
-    margin: 5px;
-}
-
 /* Block dividers */
 
 .block-divider {
