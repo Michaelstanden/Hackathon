@@ -226,19 +226,31 @@ img.links {
 }
 
 .block-divider--orange {
-    background-color: #bc3908;Ï
+    background-color: #bc3908;
 }
 
 /*SOCIAL LINKS*/
 
 .social-links {
-  text-align:center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-links ul {
+    padding: 0;
+    margin: 0;
 }
 
 .social-links li {
   display: inline;
   font-size: 40px;
 }
+
+.social-links i {
+    color: #220901;
+    font-size: 30px;
+}
+
 .social-links li a i {
   padding: 0 10px;
 }
@@ -248,11 +260,6 @@ img.links {
 .footer {
     display: inline;
     text-align: center;
-}
-
-.footer i {
-    color: #220901;
-    font-size: 30px;
 }
 
 
