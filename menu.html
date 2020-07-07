@@ -12,21 +12,21 @@
 </head>
 
 <body>
-<header>
-		<!-- Login/Basket Container -->
-		<div class="container-fluid sticky-top">
-			<div class="container-fluid d-none d-sm-block">
-				<div class="row login-basket-container justify-content-end">
-					<div class="col-12">
-						<ul>
-							<li><a href="#"><i class="fas fa-user"></i> Log in / Sign up</a></li>
-							<li><a href="#"><i class="fas fa-shopping-basket"></i> Basket</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
+    <header>
+
 <!-- Login/Basket Container -->
-	
+	    <div class="container-fluid sticky-top">
+		    <div class="container-fluid d-none d-sm-block">			
+                <div class="row login-basket-container justify-content-end">
+				    <div class="col-12">
+					    <ul>
+						    <li><a href="#"><i class="fas fa-user"></i> Log in / Sign up</a></li>
+						    <li><a href="#"><i class="fas fa-shopping-basket"></i> Basket</a></li>
+					    </ul>
+				    </div>
+			    </div>
+		    </div>
+<!-- Login/Basket Container -->	
 			<!-- Nav -->
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<a class="navbar-brand uppercase dark-red" id="logo" href="index.html">
@@ -93,10 +93,15 @@
     
 
     <div class="container">        
-
-        <div class="row">
-            <div class="col-12">
-                <img class="rounded mx-auto d-block" src="assets/images/CafeHero.jpg" alt="Coffee Menu Image">
+        <div class="row justify-content-around">
+            <div class="col-md-4 col-sm-6 menu-img">
+                <img class="img-fluid rounded mx-auto d-block" src="assets/images/TeaHero.JPG" alt="Tea Menu Image">
+            </div>
+            <div class="col-md-4 col-sm-6 menu-img">
+                <img class="img-fluid rounded mx-auto d-block" src="assets/images/CafeHero.jpg" alt="Coffee Menu Image">
+            </div>
+            <div class="col-md-4 col-sm-6 menu-img">
+                <img class="img-fluid rounded mx-auto d-block" src="assets/images/PastryHero.JPG" alt="Pastry Menu Image">
             </div>
         </div>
     </div>
@@ -243,7 +248,7 @@
         <div class="container cafe-menu">
             <div class="row">
                 <div class="col-12">
-                    <h2>Tea</h2>
+                    <h2>Tea & Hot Chocolate</h2>
                 </div>
             </div>
         </div>
@@ -252,7 +257,7 @@
         <div class="container menu-drink">
             <div class="row">
                 <div class="col-md-2">
-                    Engl. Brkfst (pot) £1.25
+                    English Breakfast (pot) £1.25
                 </div>
                 <div class="col-md-2">
                     <span>
@@ -263,7 +268,7 @@
                     </span>
                 </div>
                 <div class="col-md-2">
-                    Speciality (pot) £1.45
+                    Speciality tea (pot) £1.45
                 </div>
                 <div class="col-md-2">
                     <span>
@@ -274,7 +279,7 @@
                     </span>
                 </div>
                 <div class="col-md-2">
-                    Filter coffee (pot) £1.65
+                    Filter Coffee (pot) £1.65
                 </div>
                 <div class="col-md-2">
                     <span>
@@ -375,18 +380,18 @@
         </div>
 
 
-        <div class="container">
+        <div class="container buy-button">
             <div class="row">
-                <div class="col-md-8">
-                    <button type="button" id="buy-btn" class="btn btn-danger btn-lg float-right" name="buy">Buy</button>
+                <div class="col-md-12">
+                    <button type="button" id="buy-btn" class="btn btn-danger btn-block float-right" name="buy">BUY</button>
                 </div>
                 <!-- Intentionally empty, this is where the price tally displays right now.-->
                 <div class="col-md-4" id="confirm-send-modal">
-                    
                 </div>
             </div>
         </div>
     </form>
+
     <!-- Loading jQuery JS library, popper and bootstrap JS-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
