@@ -185,8 +185,9 @@ img.links {
 }
 
 .links {
-  height: 10em;
-  width: 10em;
+  height: 200px;
+  width: 350px;
+  object-fit: cover;
   position: relative;
   display: inline-block;
 }
@@ -201,19 +202,16 @@ img.links {
     padding-bottom: 10px;
 }
 
-.thumb {
-  padding: 5px;
-}
-
 .link-text {
   position: absolute;
   z-index: 999;
   margin: 0 auto;  
   text-align: center;
   top: 40%;
-  background: rgba(0, 0, 0, 0.8);
+  background:#bc3908;
   color: #fff;
   width: fit-content;
+  padding: 5px;
 }
 
 /* Block dividers */
