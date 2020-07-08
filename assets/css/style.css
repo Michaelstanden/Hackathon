@@ -143,6 +143,10 @@ body {
     color: #fff;
 }
 
+.lead {
+    font-size: 20px;
+}
+
 /* BUTTONS*/
 
 .btn--cta {
