@@ -35,6 +35,10 @@ body {
   color: #f6aa1c;
 }
 
+.white {
+    color: #fff;
+}
+
 /* General Styling - Spacing, capitalisation, etc */
 
 .uppercase {
@@ -71,32 +75,24 @@ body {
 .navbar {
     padding-top: 0;
     padding-bottom: 0;
+    margin-top: 10px;
 }
 
-/* -------Login / Basket -----*/
-
-.login-basket-container {
-    margin-top: 20px;
-}
-
-.login-basket-container a {
-    color: #220901;
-}
-
-.login-basket-container a i {
-    color: #220901;
-    font-size: 20px;
-    padding-left: 10px;
-}
-
-.login-basket-container ul {
-    margin-bottom: 0;
+.nav-login-basket-links {
     text-align: right;
+    display: inline;
+    line-height: 40px;
+    list-style-type: none;
 }
 
-.login-basket-container ul li {
-    list-style-type: none;
-    display: inline;
+.nav-login-basket-links a {
+    color: #220901;
+}
+
+.nav-login-basket-links a i {
+    color: #220901;
+    font-size: 15px;
+    padding-left: 10px;
 }
 
 /* -------Hero image-----*/
@@ -117,7 +113,6 @@ body {
   justify-content: center;
 
   position: relative;
-  clear: both;
 }
 
 .opaque-overlay {

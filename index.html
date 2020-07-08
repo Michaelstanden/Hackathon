@@ -15,73 +15,61 @@
 
 
 <body>
-	<header>
-		<!-- Login/Basket Container -->
-		<div class="container-fluid sticky-top">
-			<div class="container-fluid d-none d-sm-block">
-				<div class="row login-basket-container justify-content-end">
-					<div class="col-12">
-						<ul>
-							<li><a href="#"><i class="fas fa-user"></i> Log in / Sign up</a></li>
-							<li><a href="#"><i class="fas fa-shopping-basket"></i> Basket</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-			<!-- Login/Basket Container -->
-
-			<!-- Nav -->
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<a class="navbar-brand uppercase dark-red" id="logo" href="index.html">
-					The Moon Café</a>
+<!-- Nav -->
+	<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+		<a class="navbar-brand uppercase dark-red" id="logo" href="index.html">The Moon Café</a>
+		<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+	
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto nav-links-style">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home <span class="sr-only">Home</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="menu.html">Breakfast <span class="sr-only">Breakfast</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="menu.html">Lunch <span class="sr-only">Lunch</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="menu.html">Drinks <span class="sr-only">Drinks</span></a>
+				</li>
+			</ul>
+	
+			<form class="form-inline my-2 my-lg-0">
+				<input
+							              class="form-control mr-sm-2"
+							              type="search"
+							              placeholder="Search"
+							              aria-label="Search"
+							            />
 				<button
-	          class="navbar-toggler"
-	          type="button"
-	          data-toggle="collapse"
-	          data-target="#navbarSupportedContent"
-	          aria-controls="navbarSupportedContent"
-	          aria-expanded="false"
-	          aria-label="Toggle navigation"
-	        >
-	          <span class="navbar-toggler-icon"></span>
-	        </button>
-
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav mr-auto nav-links-style">
-						<li class="nav-item active">
-							<a class="nav-link" href="index.html">Home <span class="sr-only">Home</span></a>
-						</li>
-						<li class="nav-item active">
-							<a class="nav-link" href="menu.html">Breakfast <span class="sr-only">Breakfast</span></a>
-						</li>
-						<li class="nav-item active">
-							<a class="nav-link" href="menu.html">Lunch <span class="sr-only">Lunch</span></a>
-						</li>
-						<li class="nav-item active">
-							<a class="nav-link" href="menu.html">Drinks <span class="sr-only">Drinks</span></a>
-						</li>
-					</ul>
-					<form class="form-inline my-2 my-lg-0">
-						<input
-	              class="form-control mr-sm-2"
-	              type="search"
-	              placeholder="Search"
-	              aria-label="Search"
-	            />
-						<button
-	              class="btn btn-outline-success my-2 my-sm-0 btn--colour"
-	              type="submit"
-	            >
-	              Search
-	            </button>
-					</form>
-				</div>
-			</nav>
+							              class="btn btn-outline-success my-2 my-sm-0 btn--colour"
+							              type="submit"
+							            >
+							              Search
+							            </button>
+			</form>
+	
+			<ul class="nav-login-basket-links">
+				<li><a href="#"><i class="fas fa-user"></i> Log in / Sign up</a></li>
+				<li><a href="#"><i class="fas fa-shopping-basket"></i> Basket</a></li>
+			</ul>
+	
 		</div>
-		<!-- ./Nav -->
-	</header>
+	</nav>
 
+<!-- ./Nav -->
+ 
 	<!--Hero image / hero container-->
 
 	<div class="container-fluid hero-container">
