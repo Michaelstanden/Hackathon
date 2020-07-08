@@ -66,7 +66,7 @@ body {
 
 #logo {
   float: left;
-  font-size: 200%;
+  font-size: 150%;
   margin-left: 20px;
   font-family: "Montserrat Subrayada";
   padding-top: 10px;
@@ -76,6 +76,7 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     margin-top: 10px;
+    background-color: white;
 }
 
 .nav-login-basket-links {
