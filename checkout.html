@@ -3,9 +3,205 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>The Moon Cafe Checkout</title>
 </head>
 <body>
-    <p>Hi There Ready to Checkout.</p>
+    <header>
+		<!-- Login/Basket Container -->
+		<div class="container-fluid sticky-top">
+			<div class="container-fluid d-none d-sm-block">
+				<div class="row login-basket-container justify-content-end">
+					<div class="col-12">
+						<ul>
+							<li><a href="#"><i class="fas fa-user"></i> Log in / Sign up</a></li>
+							<li><a href="#"><i class="fas fa-shopping-basket"></i> Basket</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+<!-- Login/Basket Container -->
+	
+			<!-- Nav -->
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<a class="navbar-brand uppercase dark-red" id="logo" href="index.html">
+					The Moon Café</a>
+				<button
+	          class="navbar-toggler"
+	          type="button"
+	          data-toggle="collapse"
+	          data-target="#navbarSupportedContent"
+	          aria-controls="navbarSupportedContent"
+	          aria-expanded="false"
+	          aria-label="Toggle navigation"
+	        >
+	          <span class="navbar-toggler-icon"></span>
+	        </button>
+	
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto nav-links-style">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Home <span class="sr-only">Home</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Breakfast <span class="sr-only">Breakfast</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Lunch <span class="sr-only">Lunch</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="menu.html">Drinks <span class="sr-only">Drinks</span></a>
+						</li>
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+						<input
+	              class="form-control mr-sm-2"
+	              type="search"
+	              placeholder="Search"
+	              aria-label="Search"
+	            />
+						<button
+	              class="btn btn-outline-success my-2 my-sm-0 btn--colour"
+	              type="submit"
+	            >
+	              Search
+	            </button>
+					</form>
+				</div>
+			</nav>
+		</div>
+      <!-- ./Nav -->
+    </header>
+  
+
+
+<!----------------------Hero Image-->
+
+    <div class="container cafe-menu">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center">Checkout</h1>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="container">        
+
+        <div class="row">
+            <div class="col-12">
+                <img class="rounded mx-auto d-block" src="assets/images/CafecheckoutHero2.jpg" alt="Coffee Checkout Image">
+            </div>
+        </div>
+    </div>
+
+
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <span class="cart-item-title">Capoccino</span>
+                </div>
+                <span class="cart-price cart-column">$2.99</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="1">
+                    <button class="btn btn-danger" type="button">REMOVE</button>
+                </div>
+            </div>
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <span class="cart-item-title">Late</span>
+                </div>
+                <span class="cart-price cart-column">$1.99</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="2">
+                    <button class="btn btn-danger" type="button">REMOVE</button>
+                </div>
+            </div>
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$4.98</span>
+        </div>
+    </section>
+    
+    <section class="container content-section">
+        
+        <div class="wrapper">
+            <div class="payment">
+                <div class="payment-logo">
+                    <p>p</p>
+                </div>
+    
+    
+                <h2 class="section-header">Payment Gateway</h2>
+                <div class="form">
+                    <div class="card space icon-relative">
+                        <label class="label">Card holder:</label>
+                        <input type="text" class="input" placeholder="Coding Market">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="card space icon-relative">
+                        <label class="label">Card number:</label>
+                        <input type="text" class="input" data-mask="0000 0000 0000 0000" placeholder="Card Number">
+                        <i class="far fa-credit-card"></i>
+                    </div>
+                    <div class="card-grp space">
+                        <div class="card-item icon-relative">
+                            <label class="label">Expiry date:</label>
+                            <input type="text" name="expiry-data" class="input" data-mask="00 / 00"  placeholder="00 / 00">
+                            <i class="far fa-calendar-alt"></i>
+                        </div>
+                        <div class="card-item icon-relative">
+                            <label class="label">CVC:</label>
+                            <input type="text" class="input" data-mask="000" placeholder="000">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <button class="btn btn-primary btn-purchase" type="button" data-toggle="modal" data-target="#purchaseModal">PURCHASE</button>
+    </section>
+    
+    </footer>
+
+    <div class="modal" tabindex="-1" role="dialog" id="purchaseModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Checkout Sucess!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Congratulations!</p>
+                    <p>You have finished the purchase.</p>
+                    <p>One of the members of the Moon Cafe team will contact you from the details provided when your items are ready to be collected.</p>
+                    <p>Thank you for shopping with Moon Cafe and hope you have a great day.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
